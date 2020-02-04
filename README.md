@@ -1,2 +1,2 @@
-# nl-ng-barebones
-A Barebones Angular Starter
+# nl-ng-components
+Angular SPA with custom components
