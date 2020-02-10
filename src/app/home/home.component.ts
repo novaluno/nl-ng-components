@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  public sliderValue: number[] = [1, 100];
+  public minSliderValue = this.sliderValue[0];
+  public maxSliderValue = this.sliderValue[1];
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  onSliderChange(e: any) {
+    console.log(e);
+    this.minSliderValue = e.newValue[0];
+    this.maxSliderValue = e.newValue[1];
+  }
 }

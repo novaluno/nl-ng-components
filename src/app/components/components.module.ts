@@ -5,12 +5,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PageHeaderComponent } from './page-header/page-header.component';
 import { PageFooterComponent } from './page-footer/page-footer.component';
 import { PrimaryNavbarComponent } from './primary-navbar/primary-navbar.component';
+import { RangeSliderComponent } from './range-slider/range-slider.component';
 
 @NgModule({
   declarations: [
     PageHeaderComponent,
     PageFooterComponent,
-    PrimaryNavbarComponent
+    PrimaryNavbarComponent,
+    RangeSliderComponent
   ],
   imports: [
     CommonModule,
@@ -22,7 +24,8 @@ import { PrimaryNavbarComponent } from './primary-navbar/primary-navbar.componen
     CommonModule,
     PageHeaderComponent,
     PageFooterComponent,
-    PrimaryNavbarComponent
+    PrimaryNavbarComponent,
+    RangeSliderComponent
   ]
 })
 export class ComponentsModule {
